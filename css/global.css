@@ -1,0 +1,70 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* COLOQUEI MAIS ESSA PROPRIEDADE E VALOR PARA NÃO TERMOS PROBLEMAS COM PADDING E MARGIN */
+}
+
+body {
+  min-height: 100vh;
+  background-color: #181818;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-principal {
+  width: 1280px;
+  position: relative;
+}
+
+.titulo-principal {
+  font-family: 'Fira Code', monospace;
+  font-size: 56px;
+  display: inline-block;
+  position: absolute;
+  left: 96px;
+  top: 12px;
+}
+
+.label-principal {
+  position: absolute;
+  right: 0;
+  top: 24px;
+  border: #B13A98 1px solid;
+  border-radius: 16px;
+  padding: 8px;
+  width: 300px;
+  height: 48px;
+  display: flex;
+  gap: 8px;
+}
+
+.label-principal input {
+  background: none;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+/* CSS DA MAIN (ONDE OS CARTÕES ESTÃO ALOCADOS DENTRO) JÁ ESTÁ PRONTO, PARA QUE POSSAMOS COMEÇAR A FAZER NOSSOS CARTÕES, MAS DEPOIS PODEMOS REVISAR! */
+.main-cartoes {
+  width: 1280px;
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cartoes {
+  width: 32%;
+  height: 280px;
+  border: 1px solid #FFF;
+  margin-bottom: 24px;
+}
+
+.container-texto-cartoes {
+  padding: 16px 24px;
+}

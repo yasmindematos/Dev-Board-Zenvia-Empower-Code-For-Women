@@ -1,0 +1,943 @@
+/* ----------Carol Martins---------- */
+#carol-martins {
+  background:rgba(0, 0, 0, 0.4) url("https://pbs.twimg.com/media/E2osDCHWYAMz4q-?format=jpg&name=4096x4096");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  border: none;
+  border-radius: 24px 8px 8px 8px;
+  font-family: 'Fira Code', monospace;
+  position: relative;
+  text-decoration: none;
+}
+
+.carol-martins-titulo {
+  font-size: 22px;
+  position: absolute;
+  top: 40px;
+  left: 160px;
+  color: #ffffff;
+}
+
+.carol-martins-foto {
+  width: 88px;
+  position: absolute;
+}
+
+.carol-martins-infos {
+  display: flex;
+  width: 160px;
+  padding: 24px 24px 0px 16px;
+}
+
+.carol-martins-infos-subtitulo {
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  left: 116px; /* alterei aqui de 124, para 116 - Milena*/
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.carol-martins-linguagens {
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+  top: 88px;
+  left: 144px;
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.carol-martins-resumo {
+  position: absolute;
+  margin: 112px 8px 0 32px;
+  color: #ffffff
+}
+
+.carol-martins-itens {
+  font-size: 16px;
+}
+
+.carol-martins-rodape {
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #49aac6;
+  height: 24px;
+  width: 100%;
+  position: absolute;
+  bottom: 8px; /* e aqui fiz as alterações que te expliquei no discord =) - Milena */
+}
+
+/* aqui também tem uma img, como tem outras img pelo projeto, pode trocar o nome dessa classe para carol-martins-rodape-imagem (ai tem que trocar no HTML também), e aí pode tirar o img, assim fica mais específico! */
+.carol-martins-git, .carol-martins-linkedin {
+  width: 20px;
+  margin: 0 8px 0 0;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.carol-martins-git:hover, .carol-martins-linkedin:hover {
+  transform: scale(1.2);
+}
+
+/* ----------Samia Cristina---------- */
+#samia-cristina {
+  background: linear-gradient(90deg, #90F7EC, #32CCBC);
+  border: none;
+  border-radius: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+#samia-cristina .samia-cristina-imagem-perfil {
+  width: 20%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 100%;
+  border: 1px solid #4A86C5;
+}
+
+#samia-cristina .samia-cristina-titulo-cartao {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+  color: #4A86C5;
+}
+
+#samia-cristina .samia-cristina-conteudo-principal p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#samia-cristina-icones {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#samia-cristina .samia-cristina-github, .samia-cristina-linkedin {
+  margin-left: 15px;
+  width: 27px;
+  height: 27px;
+	cursor: pointer;
+  transition: 1s all;
+  
+}
+
+#samia-cristina .samia-cristina-github:hover, .samia-cristina-linkedin:hover {
+  transform: scale(1.2);
+}
+
+/* ----------Fernanda Santos---------- */
+#fernanda-santos {
+  background: linear-gradient(90deg,#66CDAA,#6959CD);
+  border: none;
+  border-radius: 15px 5px 15px 5px;
+  font-family: 'Fira Code', monospace;
+ }
+
+#fernanda-santos .imagem-perfil-fernanda-santos {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#fernanda-santos .fer-santos-imagem-media {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px 15px;
+  padding: 5px;  
+}
+
+#fernanda-santos .fer-santos-imagem-media:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+#fernanda-santos-titulo {
+  padding: 5px;
+  text-align: center;
+  }
+
+#fernanda-santos .fonte-titulo-cartao-fer-santos:hover {
+  opacity: 0.6;
+  transition: 1s;
+}
+
+#fernanda-santos .fonte-link-cartao-fer-santos:hover {
+  opacity: 0.6;
+  transition: 1s;
+}
+
+#fernanda-santos .fonte-titulo-cartao-fer-santos {
+  color: #B0E0E6;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#fernanda-santos .container-texto-cartao-fer-santos{
+  color: #FFE4E1;
+  padding-left: 24px;
+  text-align: center;
+  margin: 7px;
+}
+
+#fernanda-santos .fonte-link-cartao-fer-santos {
+  color: #B0E0E6;
+  text-decoration: none;
+}
+
+#fernanda-santos .emoticon-fer-santos {
+  padding-top: 10px;
+}
+
+
+/* ----------Erica de Bem---------- ;*/
+
+#erica-de-bem {
+  background-image: linear-gradient(to right, #ec939a, #b4bce4, #b4b7be);
+  border: none;
+  border-top-right-radius:50px;
+  font-family: 'Roboto Mono', monospace;
+  position: relative;
+}
+
+#erica-de-bem-estudo h1 {
+  display: inline-block;
+  font-size: 12px;
+  color:#dd646e;
+  text-decoration: none;
+  position: absolute;
+  top: 2%;
+  left: 10%;
+}
+
+#erica-de-bem .imagem-perfil-erica-de-bem {
+  display: inline-block;
+  position: absolute;
+  bottom: 180px;
+  right: 90px;
+  width: 0px;
+}
+
+#erica-de-bem .erica-de-bem-imagem-media {
+  text-align: right;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+#erica-de-bem-titulo-cartao  {
+  font-size: 24px;
+  color: #dd646e;
+  text-decoration: none;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+#erica-de-bem-midias {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  top: 125px;
+}  
+
+#erica-de-bem-midias .erica-de-bem-redes-sociais {
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px;
+}
+
+#frase-erica-de-bem {
+  background-color: #dd646e;
+  height: auto;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  font-size: 10px;
+  color: #c0c1be;
+  text-align: center;
+}
+
+/* ----------Polyana Laier---------- */
+#polyana-laier {
+  background-image: linear-gradient(to top left, #fbd1c6, #FED3C4, #fff) ;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+}
+
+.polyana-laier-perfil {
+  display: flex;
+  width: 100%;
+  padding: 15px 30px 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+#polyana-laier  h1 {
+  font-size: 28px;
+  position: absolute;
+  top: 24px;
+  left: 29px;
+}
+
+.polyana-laier-perfil  h2 {
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.polyana-laier-foto{
+  border:none;
+  border-radius: 100px;
+}
+
+.polyana-laier-conteudo {
+  margin: 0px 30px 5px 30px;
+}
+
+.polyana-laier-conteudo li {
+  margin-top: 8px;
+  list-style: none;
+  font-size: 14px; 
+}
+
+.polyana-laier-rodape {
+  background: #fff;
+  margin-top: 10px;
+}
+
+.polyana-laier-rodape img {
+  width: 20px;
+}
+
+.polyana-laier-rodape{
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+}
+
+.polyana-laier-rodape a {
+  text-decoration: none;
+}
+
+.polyana-laier-git-hub{
+  margin-right: 18px;
+}
+
+
+/* ----------Giovana Corrêa---------- */
+
+#giovana-correa {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: url(https://images4.alphacoders.com/107/1071022.png);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Inter', sans serif; 
+}
+
+#giovana-correa .giovana-correa-imagem-perfil {
+  width: 75px;
+  margin-top: 8px;
+}
+
+#giovana-correa .giovana-correa-conteudo {
+  color: #FFFAFA;
+  font-size: 17px;
+  line-height: 2;
+}
+
+#giovana-correa .giovana-correa-contato {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  transition: 0.7s transform;
+}
+
+.giovana-correa-contato img {
+  width: 24px;
+  margin: 10px;
+}
+
+#giovana-correa .giovana-correa-icone:hover {
+  transition: 0.7s;
+  transform: scale(1.3);
+}
+
+/* ----------Maria Camila---------- */
+
+
+/* ----------Yasmin de Matos---------- */
+#yasmin-de-matos {
+background-image: linear-gradient(#e59bff, #091e79);
+border: none;
+border-radius: 10px;
+font-family: 'Roboto', italic;
+position: relative;
+}
+
+#yasmin-de-matos .nome {
+  position: absolute;
+  top: 64px;
+  left: 64px; 
+  padding-top: 10px;
+  color: #f5f5f5;
+  justify-text: center;
+  width: 200px;
+  transform: translateX(70%); /* ai usei essa propriedade aqui para mover ele em 50% em relação ao tamanho, aí ele fica centralizado, mas não achei nada que possa estar impedindo o text-align de funcionar, vou avaliar os outros cards e ver se pode ser problema em alguma outra parte do CSS =) */
+}
+
+#yasmin-de-matos-perfil {
+  display: flex;
+  width: 90%;
+  padding: 10px 30px 0px 30px;
+  align-items: center;
+  text-align: center;
+}
+
+#yasmin-de-matos .imagem-media {
+  border-radius: 40px;
+  padding-top: 5px;
+}
+
+#yasmin-de-matos .fonte-link-cartao {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+#yasmin-de-matos-perfil {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding-right: 24px;
+}
+
+#yasmin-de-bueno-background {
+  display: flex; 
+  align-items: center; 
+  padding-top: 24px;
+  padding-left: 24px;
+  width: 80px;
+  height: 60px;
+}
+
+#yasmin-de-matos-rodape-fim {
+  background: #fff;
+  margin-top: 10px;
+  position: relative;
+}
+
+#yasmin-de-matos footer img {
+  width: 20px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.icone-github-yasmin {
+  position: absolute;
+  bottom: 75;
+  left: 270px; 
+}
+
+.icone-linkedin-yasmin {
+  position: absolute;
+  bottom: 75;
+  right: 270px; 
+}
+
+#yasmin-de-matos-rodape {
+  padding-top: 2px;
+  align-items: center; 
+}
+
+#yasmin-de-matos-rodape a {
+  text-decoration: none;
+}
+
+#yasmin-de-matos-git-hub{
+  margin-right: 18px;
+}
+
+/* ----------Mirella Bagdadi---------- */
+
+#mirella-header {
+  background: #310231;
+}
+
+
+
+
+/* ----------Victoria Correia---------- */
+
+
+/* ----------Thialla Menezes---------- */
+#thialla-menezes {
+	background: linear-gradient(#E0FFFF, #008B8B);
+	border: none;
+	border-radius: 10px;
+	font-family: 'Inter', sans-serif;
+	position: relative;
+
+}
+.thialla-menezes-nome {
+	text-align: center;
+  padding: 20px;
+}
+.thialla-menezes-foto {
+  display: flex;
+  border-radius: 40px;
+  margin: 0 30px 30px 0;
+  width: 56px;
+  float:right;
+  }
+
+.thialla-menezes-conteudo li {
+  display: flex;
+  text-align: center;
+  font-size: 13px; 
+  font-weight: bold;
+  margin: 10px;
+    
+}
+.thialla-menezes-rodape {
+  display: flex;
+  justify-content: space-evenly; 
+  margin-top: 40px;
+}
+
+/* ----------Izabella Bueno---------- */
+
+#izabella-bueno {
+  background: linear-gradient(#A05fb7, #db1fb8);
+  border: none;
+	border-radius: 10px;
+	font-family: 'Inter', sans-serif;
+	position: relative;
+}
+.izabella-bueno-titulo {
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+  color: whitesmoke;
+  padding: 15px;
+  font-family: 'Satisfy', cursive;
+}
+#izabella-bueno-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px 0px 25px;
+}
+.imagem-izabella {
+  display: flex;
+  border-radius: 40px;
+  width: 70px;
+  float:right;
+ 
+}
+
+#container-texto-cartoes {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0px;
+}
+#izabella-bueno-rodape {
+  background-color: white;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  }
+#izabella-bueno-frase-rodape {
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* ----------Bruna Pereira---------- */
+
+
+/* ----------Taissa Lima---------- */
+#taissa-lima{
+  background:url("https://gist.githubusercontent.com/taissasli/35e2a7be51b09d3a494da8b36d4aba73/raw/01cda7e67c6edf55116299ab71637a48bc534d0e/Background.svg");
+background-size: cover;
+border: none;
+border-radius: 30px 0px;
+  position: relative;
+}
+
+#taissa-lima .fonte-titulo-cartao {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.taissa-nome-link{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.taissa-main{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.taissa-nome-link a{
+  text-decoration: none;
+  font-size: 100%;
+  color: black;
+}
+
+.taissa-nome-link img{
+  width: 40px;
+  margin-right: 2vh;
+}
+.taissa-background img{
+  margin-right: 20px;
+}
+
+.taissa-descricao{
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 100%;
+  color: white;
+  font-family: 'Inter';
+
+}
+.taissa-descricao a{
+  color: pink;
+}
+
+/* ----------Priscilla Ramos---------- */
+#priscilla-ramos {
+  background-image: linear-gradient(70deg, #B016F5, #e64e81, #bff4fb);
+  border: none;
+  border-radius: 0 24px 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+#priscilla-ramos .nome {
+  position: absolute;
+  top: 16px;
+  left: 60px;
+  color: #800080;
+}
+#priscilla-ramos .priscilla-ramos-foto{
+  border-radius:50%;
+}
+
+#priscilla-ramos-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+}
+
+#priscilla-ramos-background {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  gap: 8px;
+  width: 80%;
+  height: 60px;
+  background: #94bad6;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .50);
+}
+
+#priscilla-ramos-rodape {
+  background: #ff8484;
+  position: relative;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;  
+}
+
+
+/* ----------Renaive---------- */
+
+
+/* ----------Ju Facundes---------- */
+#ju-facundes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#5FC7F5,#F5C7F5);
+  border-radius: 20px;
+  text-align: center;
+}
+
+#ju-facundes .julyana-facundes-imagem-perfil {
+  width: 25%;
+  border-radius: 100%;
+}
+
+#ju-facundes .julyana-facundes-titulo-cartao {
+  color: white;
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+#ju-facundes .julyana-facundes-conteudo-principal {
+  font-family: 'Inter', sans serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#ju-facundes .julyana-facundes-conteudo-secundario {
+  font-family: 'Inter', sans serif; 
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#ju-facundes ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+} 
+#ju-facundes .julyana-facundes-img {
+  width: 25px;
+  height: 25px;
+	cursor: pointer;
+  margin: 5px;
+  transition: 0.8ms all;
+}
+
+#ju-facundes .julyana-facundes-img:hover {
+  transform: scale(1.2);
+}
+
+/* ----------Maria Cristina---------- */
+#maria-cristina {
+  background:linear-gradient(#F5FFFA,#B8860B);
+  border-radius:30px;
+  font-family: 'Fira Code', monospace;
+
+}
+
+.imagem-cristina {
+  width: 20%;
+  position: relative;
+  border-radius: 30px;
+  margin: 20px;
+  text-align: center;
+  display: flexbox
+
+}
+#maria-cristina h1 {
+  color:black;
+  font-size: 30px;
+  text-align: center;
+}
+#maria-cristina h2 {
+  text-align: left;
+  font-size: 15px;
+}
+  
+#maria-cristina p {
+  color: black;
+  margin-inline: 10 5 20;
+}
+
+
+/* ----------Clara Borges---------- */
+
+
+/*----------Talita Cavalcanti----------*/
+#talita-cavalcanti{
+  background: #e9e4d0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #0a5ddf;
+  border-radius: 10px 10px 0 0;
+}
+
+.talita-header{
+  background: #0a5ddf;
+  padding: 7px;
+  color: white;
+  font-size: 12px;
+}
+
+.talita-fechar-card{
+  width:20px;
+  float: right;
+}
+
+.talita-principal{
+  padding: 16px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.talita-icone-body{
+  float: left;
+  width: 50px;
+}
+
+.talita-footer{
+  padding: 0 0 16px 16px;
+  display: flex;
+}
+
+.talita-github {
+  width: 50px;
+  padding: 0 10px;
+  opacity: 1;
+}
+
+.talita-linkedin {
+  width: 30px;
+  opacity: 1;
+}
+
+.talita-github:hover, .talita-linkedin:hover{
+  transform: scale(1.1);
+  opacity: 0.3;
+} 
+
+
+/* ----------Esther Lourenço---------- */
+#esther-lourenco {
+  background-image: linear-gradient(#f4aab1, #8d8cd2);
+  border: none;
+  border-radius: 30px;
+}
+
+.esther-background {
+  display: flex;
+  justify-content: center;
+}
+
+.esther-rect {
+  height: 50px;
+  width: 200px;
+  background-image: linear-gradient(#b0afdd, #8d8cd2);
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+}
+
+.esther-h1 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  position: relative;
+  padding: 10px;
+}
+
+.esther-ul, .esther-p {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.esther-ul {
+  position: relative;
+  left: 12px;
+}
+
+.esther-imagem {
+  position: relative;
+  right: 12px;
+  width: 80px;
+  border-radius: 80px;
+}
+
+#esther-centro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 33px;
+}
+
+.esther-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.esther-git, .esther-linkedin {
+  filter: invert(100%);
+  width: 25px;
+  height: 27px;
+	cursor: pointer;
+}
+
+.esther-git:hover, .esther-linkedin:hover {
+  transform: scale(1.1) rotate(20deg);
+  transition: 1s all;
+}
+
+/* ----------Milena Emmert---------- */
+#milena-emmert {
+  background-image: linear-gradient(45deg, #B13A98, #FFB7F0);
+  border: none;
+  border-radius: 0 24px 0 24px;
+  font-family: 'Roboto Mono', monospace;
+  position: relative;
+}
+
+#milena-emmert .nome {
+  position: absolute;
+  top: 16px;
+  left: 56px;
+}
+
+#milena-emmert .fonte-link-cartao {
+  color: #651554;
+}
+
+#milena-emmert-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+}
+
+#milena-emmert-background {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  gap: 8px;
+  width: 80%;
+  height: 64px;
+  background: #FFB7EF;
+  border-bottom-right-radius: 100px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
+}

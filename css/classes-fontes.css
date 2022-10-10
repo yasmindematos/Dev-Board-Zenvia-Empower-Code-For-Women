@@ -1,0 +1,53 @@
+/* Importanto fonte do diretório "fonte": */
+
+@font-face {
+  font-family: 'Fira Code', monospace;
+  src: url('fonte/FiraCode-Regular.ttf');
+}
+
+/* ⚠️ ATENÇÃO: utilize as classes abaixo direto no HTML do SEU cartão.
+   ⚠️ NÃO ALTERE AS CLASSES PRONTAS!
+   ⚠️ Caso queira alterar algo das classes abaixo NO SEU CARTÃO, no arquivo cartoes.css chame o seu id e depois a classe que quer alterar e faça a alteração. Dessa forma, não comprometerá a estrutura de classes prontas abaixo.
+*/
+
+.fonte-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.fonte-roboto {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.fonte-satisfy {
+  font-family: 'Satisfy', cursive;
+}
+
+.fonte-titulo-cartao {
+  font-size: 24px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.fonte-paragrafo-cartao {
+  font-size: 14px;
+  color: #FAFAFA;
+  margin-bottom: 8px;
+}
+
+.fonte-link-cartao {
+  color: #AAAAAA;
+}
+
+.fonte-italico {
+  font-style: italic;
+}
+
+.texto-centralizado {
+  text-align: center;
+}
+
+.gradiente {
+  background-image: linear-gradient(to bottom, #B13A98, #FFB7EF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

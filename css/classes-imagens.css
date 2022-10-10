@@ -1,0 +1,16 @@
+/* ⚠️ ATENÇÃO: utilize as classes abaixo direto no HTML do SEU cartão.
+   ⚠️ NÃO ALTERE AS CLASSES PRONTAS!
+   ⚠️ Caso queira alterar algo das classes abaixo NO SEU CARTÃO, no arquivo cartoes.css chame o seu id e depois a classe que quer alterar e faça a alteração. Dessa forma, não comprometerá a estrutura de classes prontas abaixo.
+*/
+
+.imagem-pequena {
+  width: 24px;
+}
+
+.imagem-media {
+  width: 56px;
+}
+
+.imagem-grande {
+  width: 80px;
+}
