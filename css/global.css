@@ -70,7 +70,7 @@ body {
 }
 
 .footer-pagina-principal {
-  width: 100%;
+  width: 1280px;
   padding: 24px;
   border-top: 2px #B13A98 solid;
   /* text-align: center; - funcionou! */
