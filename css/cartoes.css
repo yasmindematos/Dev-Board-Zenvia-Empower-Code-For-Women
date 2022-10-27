@@ -139,6 +139,7 @@
   border: none;
   border-radius: 15px 5px 15px 5px;
   font-family: 'Fira Code', monospace;
+  position: relative;
  }
 
 #fernanda-santos .imagem-perfil-fernanda-santos {
@@ -158,9 +159,11 @@
   transition: 1s;
 }
 
-#fernanda-santos-titulo {
-  padding: 5px;
-  text-align: center;
+#fernanda-santos .fonte-titulo-cartao-fer-santos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2px;
   }
 
 #fernanda-santos .fonte-titulo-cartao-fer-santos:hover {
@@ -184,6 +187,8 @@
   padding-left: 24px;
   text-align: center;
   margin: 7px;
+  position: absolute;
+  top: 132px;
 }
 
 #fernanda-santos .fonte-link-cartao-fer-santos {
@@ -746,45 +751,46 @@ border-radius: 30px 0px;
 #maria-cristina {
   background:linear-gradient(#F5FFFA,#B8860B);
   border-radius:40px;
-  background:font-family: 'Inter', sans serif;
-   
+  font-family: 'Inter', sans serif;
+  padding: 24px;
 }
 
 .imagem-cristina {
-  width: 30%;
+  width: 20%;
   position: relative;
   border-radius: 40px;
-  text-align: center;
 }
-#maria-cristina h1 {
+#maria_cristina_h1 {
   color:black;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-   
-}
-#maria-cristina h2 {
-  text-align: center;
-  font-size: 20px; 
+  margin: 0 0 20;
 }
 
-#maria-cristina h3 {
+.maria_cristina_h2 {
   text-align: center;
-  font-size: 18px;  
+  font-size: 22px; 
+}
+
+.maria_cristina_dev {
+  text-align: center;
+  font-size: 20px;
 }
   
-#maria-cristina p {
-  display: inline-block;
+.maria_cristina-p {
+  text-align: center;
+  display:inline-block;
   color: black;
+  height: 10px;
+  font-size: 13px;
 }
 
-.maria-cristina-icones {
-   width: 10px;
-  height: 10px;
+.maria-cristina-icones a {
 	cursor: pointer;
   transition: 0.8ms all;
-  text-align: center;
+  display: inline-block;
+  margin-top: 16px;
 }
-
 
 /* ----------Clara Borges---------- */
 
@@ -914,6 +920,170 @@ border-radius: 30px 0px;
   transform: scale(1.1) rotate(20deg);
   transition: 1s all;
 }
+
+/* ----------Bruna Vasconcelos---------- */
+#bruna-vasconcelos {
+  background: linear-gradient(90deg, #d8bfd8, #ffcbdb);
+  border: none;
+  border-radius: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bruna-vasconcelos-imagem-perfil {
+  width: 15%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 100%;
+  border: 2px solid #B86B77;
+}
+
+.bruna-vasconcelos-titulo-cartao {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 auto;
+  color: #B86B77;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bruna-vasconcelos-conteudo-principal p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#bruna-vasconcelos-icones {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  top: -15px;
+  
+}
+
+.bruna-vasconcelos-github, .bruna-vasconcelos-linkedin {
+  margin-left: 15px;
+  width: 27px;
+  height: 27px;
+	cursor: pointer;
+  transition: 1s all;
+  
+}
+
+bruna-vasconcelos-github:hover, .bruna-vasconcelos-linkedin:hover {
+  transform: scale(1.2);
+}
+
+
+/* ----------Giovanna Maia---------- */
+#giovanna-maia {
+  background: rgb(181,192,241);
+  background-image: linear-gradient(180deg, rgba(181,192,241,1) 0%, rgba(252,248,237,1) 35%, rgba(232,203,192,1) 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Noto Serif', sans-serif;
+  transition: 0.3s;
+}
+
+#giovanna-maia:hover{
+  opacity: 1;
+  background: rgb(181,192,241);
+  background-image: linear-gradient(180deg, rgba(181,192,241,1) 0%, rgba(255,254,253,1) 35%, rgba(232,203,192,1) 100%);
+}
+
+#giovanna-maia .giovanna-maia-foto {
+  width: 75px;
+  margin-top: 5px;
+  border: 1px solid #181818;
+  border-radius: 80%;
+}
+
+#giovanna-maia .giovanna-maia-hover-underline-animation {
+  color: #181818;
+  font-size: 25px;
+  margin: 5px;
+}
+
+#giovanna-maia .giovanna-maia-hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #181818;
+}
+
+#giovanna-maia .giovanna-maia-hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9F9D97;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+#giovanna-maia .giovanna-maia-hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#giovanna-maia .giovanna-maia-paragrafo {
+  color: #181818;
+  font-size: 15px;
+  padding: 2px;
+}
+
+#giovanna-maia .giovanna-maia-contato {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#giovanna-maia .giovanna-maia-contato img{
+  width: 24px;
+  margin: 10px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+#giovanna-maia .giovanna-maia-contato img:hover{
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* ----------Luiza Bandeira---------- */
+#luiza-bandeira{
+  background: linear-gradient(35deg, #33a1e6, #0084ff);
+  border-radius: 15px;
+  border: none;
+  position: relative;
+}
+
+.nome-profile{
+  font-size: 22px;
+  position: absolute;
+  top: 40px;
+  left: 160px;
+  color: #ffffff;
+}
+
+.luiza-profile-sub h2{
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.luiza-avatar{
+  width: 88px;
+  position: absolute;
+}
+
+/*---------- Gisele Reis ----------*/
+
 
 /* ----------Milena Emmert---------- */
 #milena-emmert {
